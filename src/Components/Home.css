@@ -1,0 +1,86 @@
+.home{
+    background-color: #1F2641;
+    /* background-image: url(../Imgs/bg.png) ; */
+    background-image: url(../Imgs/bgbig.png);
+    /* float: left; */
+    background-repeat: no-repeat;
+    background-position: 100% ;
+    background-attachment: fixed;
+    background-size: 30rem;
+}
+.Limg{
+    width: 200px;
+    height: 200px;
+}
+.Img{
+    background-color:#46247c;
+    border: 0px;
+    box-shadow: 0px 0px 10px #1F2641, 0px 0px 80px #03040c;
+    max-width: 303px;
+    margin: auto;
+    width: 100%;
+}
+.box{
+    border-radius: 10px;
+    background-color: #7061B2;
+    font-weight: 600;
+    text-align: center;
+    align-self: center;
+    box-shadow: 0px 0px 250px #46247c, 0px 0px 80px #7733b6;
+    max-width: 525px;
+    margin: auto;
+}
+.btnA{
+    box-shadow: 0px 0px 5px #ed864d, 0px 0px 25px #ea4e5b;
+    background-image: linear-gradient(to left, #ED864D,#EA4E5B);
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-size: 20px;
+    
+}
+.btnA:hover{
+    background-image: linear-gradient(to left, #ED864D,#ED864D);
+}
+
+.btnB{
+    box-shadow: 0px 0px 5px #00CDE4, 0px 0px 25px #00CDE4;
+    background-color: #00CDE4;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+    font-size: 13px;
+    
+}
+.btnB:hover{
+    background-color: #2CDFD2;
+}
+
+@media screen and (max-width: 400px) {
+    .btnB{
+        font-size: 7px;
+        text-align: center;
+    }
+  }
+.CU{
+    color: white;
+    text-align: center;
+    background:none;
+}
+#carouselExampleControls{
+    background-color:#46247c;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px #1F2641, 0px 0px 80px #03040c;
+    max-width: 303px;
+    margin: auto;
+    width: 100%;
+    /* height: 320px; */
+}
+.SliderImg{
+
+}
